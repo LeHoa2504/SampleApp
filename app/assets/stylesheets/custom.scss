@@ -23,6 +23,7 @@ textarea {
 
 .center {
   text-align: center;
+
   h1 {
     margin-bottom: 10px;
   }
@@ -62,6 +63,7 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+
   &:hover {
     color: white;
     text-decoration: none;
@@ -73,8 +75,10 @@ footer {
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
+
   a {
     color: $gray;
+
     &:hover {
       color: $gray-darker;
     }
@@ -87,6 +91,7 @@ footer {
   ul {
     float: right;
     list-style: none;
+
     li {
       float: left;
       margin-left: 15px;
@@ -101,11 +106,13 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
+
 /* sidebar */
 aside {
   section.user_info {
     margin-top: 20px;
   }
+
   section {
     padding: 10px 0;
     margin-top: 20px;
@@ -113,11 +120,13 @@ aside {
       border: 0;
       padding-top: 0;
     }
+
     span {
       display: block;
       margin-bottom: 3px;
       line-height: 1;
     }
+
     h1 {
       font-size: 1.4em;
       text-align: left;
@@ -163,3 +172,16 @@ input {
   }
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
