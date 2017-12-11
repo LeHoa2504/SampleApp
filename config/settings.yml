@@ -1,0 +1,9 @@
+user:
+  name:
+    maximum: 50
+  email:
+    maximum: 255
+  password:
+    minimum: 6
+UserHelper:
+  size: 80
