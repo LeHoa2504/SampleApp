@@ -1,8 +1,10 @@
 source "https://rubygems.org"
+
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+
 gem "bcrypt", "3.1.11"
 gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
@@ -19,7 +21,6 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "sqlite3", "1.3.13"
 end
-
 group :development do
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "spring"
@@ -34,11 +35,8 @@ group :test do
   gem "rails-controller-testing", "1.0.2"
 end
 
-
 group :production do
   gem "pg", "0.20.0"
 end
 
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
