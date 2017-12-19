@@ -1,29 +1,8 @@
-<!--
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
--->
-
 <% provide :title, t(".help")%>
 
-  <h1><%= t ".help" %></h1>
-<p>
+<h1><%= t ".help" %></h1>
+  <p>
   <%= t(".content",
     rorhs: link_to(t(".rorhs"), "http://www.railstutorial.org/help"),
     rort: link_to(t(".rort"), "http://www.railstutorial.org/")).html_safe %>
-</p>
-<p>xin giúp đỡ các bạn</p>
-
-
-
-<!--
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>ABC | XYZ</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    </head>
-    <body>
-        <p>Xin chao các bạn.</p>
-    </body>
-</html>
--->
+  </p>
