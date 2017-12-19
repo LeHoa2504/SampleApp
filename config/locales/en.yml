@@ -1,4 +1,6 @@
 en:
+  sample: "Welcome to the Sample App"
+  notfind: "Can not find users"
   helpers:
     application_helper:
       title: "Ruby on Rails Tutorial Sample App"
