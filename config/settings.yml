@@ -7,3 +7,5 @@ user:
     minimum: 6
 UsersHelper:
   size: 80
+_user:
+  size: 50

@@ -1,6 +1,10 @@
 en:
   sample: "Welcome to the Sample App"
-  notfind: "Can not find users"
+  profile: "Profile updated"
+  delete: "User deleted"
+  plogin: "Please log in"
+  notfind: "Can not find user"
+  notcreate: "Can not user save"
   helpers:
     application_helper:
       title: "Ruby on Rails Tutorial Sample App"
@@ -31,6 +35,7 @@ en:
       signup: "Sign up now!"
       sign: "Sign up"
       newuser: "New user?"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   static_pages:
@@ -71,7 +76,16 @@ en:
       creating: "Creating....."
       signup: "Sign up"
       confirm: "Confirmation"
+    edit:
+      edituser: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+    index:
+      allusers: "All users"
+    _user:
+      delete: "Delete"
+      sure: " you sure"
   shared:
     error_messages:
-      contains: "The form contains %{count_errors}"
+      contains: "The form contains"
       error: "error"
