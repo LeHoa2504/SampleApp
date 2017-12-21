@@ -1,6 +1,7 @@
 en:
   sample: "Welcome to the Sample App"
-  notfind: "Can not find users"
+  notfind: "Can not find user"
+  notcreate: "Users can not save"
   helpers:
     application_helper:
       title: "Ruby on Rails Tutorial Sample App"
@@ -31,6 +32,7 @@ en:
       signup: "Sign up now!"
       sign: "Sign up"
       newuser: "New user?"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   static_pages:
