@@ -1,9 +1,27 @@
 en:
   sample: "Welcome to the Sample App"
-  notfind: "Can not find users"
+  profile: "Profile updated"
+  delete: "User deleted"
+  plogin: "Please log in"
+  notfind: "Can not find user"
+  notcreate: "Can not user save"
+  mailercheckemail: "Please check your email to activate your account."
+  activated: "Account activated!"
+  invalid: "Invalid activation link"
+  notactivated: "Account not activated. "
+  checkemail: "Check your email for the activation link."
+  emailreset: "Email sent with password reset instructions"
+  emailnotfound: "Email address not found"
+  empty: "can't be empty"
+  resetP: "Password has been reset."
+  expiredP: "Password reset has expired."
   helpers:
     application_helper:
       title: "Ruby on Rails Tutorial Sample App"
+  mailers:
+    user_mailer:
+      activation: "Account activation"
+      reset: "Password reset"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -25,12 +43,17 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  password_resets:
+      edit:
+        update: "Update password"
   sessions:
     new:
       login: "Login"
       signup: "Sign up now!"
       sign: "Sign up"
       newuser: "New user?"
+      remember: "Remember me on this computer"
+      forgot: "(forgot password)"
     create:
       invalid: "Invalid email/password combination"
   static_pages:
@@ -62,6 +85,17 @@ en:
       content: "Contact the Ruby on Rails Tutorial
         about the sample app at the %{cp}."
       cp: "Contact page"
+  user_mailer:
+    account_activation:
+      sampleA: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password_reset:
+      passreset: "Password reset"
+      clicklink: "To reset your password click the link below:"
+      thislink: "This link will expire in two hours."
+      p: "If you did not request your password to be reset,
+          please ignore this email and your password will stay as it is."
   users:
     new:
       signup: "Sign up"
@@ -71,7 +105,16 @@ en:
       creating: "Creating....."
       signup: "Sign up"
       confirm: "Confirmation"
+    edit:
+      edituser: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+    index:
+      allusers: "All users"
+    _user:
+      delete: "Delete"
+      sure: " you sure"
   shared:
     error_messages:
-      contains: "The form contains %{count_errors}"
+      contains: "The form contains"
       error: "error"
